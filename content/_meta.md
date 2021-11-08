@@ -1,8 +1,11 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/gears.png
+Tagline: My portfolio
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Link to my github repo.
+      url: https://github.com/elhf21/design
       icon: github
+    - title: Link to my linkedin page.
+      url: https://se.linkedin.com/in/eleonorhoffmann
+      icon: linkedin
 ---

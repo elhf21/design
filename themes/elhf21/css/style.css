@@ -1,6 +1,6 @@
-body {
-    background-color: blue;
-}
+/*body {
+    background-color: #A5D5D5;
+}*/
 
 * {
     box-sizing: border-box;
@@ -47,6 +47,7 @@ body {
 
 .title, .logo {
     padding: 3em 3em 3em 0;
+    max-width: 30%;
 }
 
 @media (max-width: 767px) {
@@ -57,16 +58,16 @@ body {
         min-width: 50%;
     }
     .logo {
-        max-width: 30%;
+        max-width: 5%;
     }
 }
 
 .title * {
-    color: #111;
+    color: #4B9D9D;
 }
 
 .title p {
-    font-style: italic;
+
 }
 
 /* Footer */
@@ -74,11 +75,11 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 5px solid #4B9D9D;
 }
 
 .footer a {
-    color: #222;
+    color: #4B9D9D;
 }
 
 .footer .social {
@@ -102,10 +103,15 @@ p, td, th, li, dd {
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
+    color: #4B9D9D;
 }
 
 img {
     max-width: 100%;
+}
+
+img.me {
+    width: 20%;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */

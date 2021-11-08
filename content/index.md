@@ -6,6 +6,12 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+This is my portfolio.
 
-This is a sample home page written in markdown with some frontmatter defined.
+I have a degree of Master of Science in Mechanical Engineer with Industrial Design from the Faculty of Engineering at Lund University.
+
+I have a passion for design and code.
+
+You will eventually be able to see my projects on this website.
+
+![me](%assets_url%/img/me.jpg){.me}
