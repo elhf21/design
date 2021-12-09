@@ -1,0 +1,181 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-nav';
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* Typografy */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+    color: $font-color;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    color: $accent-color;
+    margin-bottom: 1em;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    margin: 0 100px;
+}
+
+.header {
+    margin: 0 100px;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+/* Header */
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 10px;
+}
+
+/* Title */
+
+.title,
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+.title {
+    * {
+        color: $accent-color;
+    }
+
+    p {
+        font-style: regular;
+    }
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    background-color: $background-alternative-color;
+
+    a {
+        color: $font-alternative-color;
+    }
+
+    p {
+        color: $font-alternative-color;
+        margin: 25px 100px 0;
+    }
+}
+
+.footer .social {
+    font-size: 2rem;
+    margin: 25px 100px 0 0;
+}
+
+/* Images */
+
+img {
+    max-width: 200px;
+    padding: 25px;
+}
+
+/* Media */
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+        line-height: 1.5rem;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        min-width: 5%;
+    }
+
+    .main,
+    .header {
+        margin: 0 1em;
+    }
+
+    .footer p {
+        margin: 25px 0 0 1em;
+    }
+
+    .footer .social {
+        margin: 25px 1em 0 0;
+    }
+}
